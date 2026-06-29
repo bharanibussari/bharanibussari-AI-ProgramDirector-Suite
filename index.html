@@ -1,78 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bharani AI Program Management Suite</title>
+
+<title>AI Program Director Suite | Bharani Bussari</title>
 
 <style>
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f5f7fa;
-    margin:0;
-    text-align:center;
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f7fb;
+color:#333;
 }
 
 header{
-    background:#003366;
-    color:white;
-    padding:50px 20px;
+background:#003366;
+color:white;
+padding:60px 20px;
+text-align:center;
 }
 
-h1{
-    margin:0;
-    font-size:42px;
+header h1{
+font-size:42px;
+margin-bottom:10px;
 }
 
-.subtitle{
-    font-size:20px;
-    margin-top:15px;
+header p{
+font-size:20px;
+margin:8px;
 }
 
 .container{
-    width:90%;
-    max-width:1100px;
-    margin:40px auto;
+width:90%;
+max-width:1300px;
+margin:auto;
+padding:40px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:34px;
+color:#003366;
+margin-bottom:40px;
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+
 }
 
 .card{
-    display:inline-block;
-    width:300px;
-    background:white;
-    margin:20px;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.12);
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
 }
 
 .card h2{
-    color:#003366;
+
+color:#003366;
+margin-top:0;
+
 }
 
 .card p{
-    color:#555;
-    min-height:90px;
+
+color:#555;
+line-height:1.6;
+
 }
 
 .button{
-    display:inline-block;
-    padding:12px 25px;
-    background:#007BFF;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
+
+display:inline-block;
+margin-top:15px;
+padding:12px 22px;
+background:#0057B8;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+
 }
 
 .button:hover{
-    background:#0056b3;
+
+background:#003d80;
+
+}
+
+.coming{
+
+background:#f8fbff;
+
 }
 
 footer{
-    margin-top:60px;
-    padding:25px;
-    color:#666;
+
+background:#003366;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:60px;
+
 }
+
+.badge{
+
+display:inline-block;
+padding:8px 15px;
+background:#d9eaff;
+color:#003366;
+border-radius:20px;
+margin:6px;
+
+}
+
 </style>
 
 </head>
@@ -81,56 +140,164 @@ footer{
 
 <header>
 
-<h1>AI Program Management Suite</h1>
+<h1>🤖 AI Program Director Suite</h1>
 
-<p class="subtitle">
-Built by <strong>Bharani Bussari, PMP | Salesforce Agentforce Specialist Certified | AI Specialist </strong>
-</p>
+<p>Enterprise AI Tools for Project & Program Management</p>
 
-<p>
-AI-powered tools for Project Managers, Delivery Managers, Program Managers and PMOs
-</p>
+<p><strong>Bharani Bussari, PMP | Salesforce Certified | AI Associate</strong></p>
+
+<p>18+ Years delivering Digital Transformation, CRM & Enterprise Programs</p>
 
 </header>
 
 <div class="container">
+
+<h2 class="section-title">Available AI Tools</h2>
+
+<div class="cards">
 
 <div class="card">
 
 <h2>📊 Portfolio Dashboard</h2>
 
 <p>
-Executive dashboard for monitoring portfolio health, delivery metrics and governance.
+Enterprise portfolio monitoring with KPIs, governance metrics,
+delivery health and executive insights.
 </p>
 
-<a class="button" href="portfolio_dashboard.html">
-Launch Tool
-</a>
+<a class="button" href="portfolio_dashboard.html">Launch Tool</a>
 
 </div>
+
 <div class="card">
-        <h2>👔 Steering Committee Copilot</h2>
-        <p>Create executive-ready Steering Committee reports, decisions and talking points in minutes.</p>
-        <a class="button" href="steering-committee-copilot.html">Launch Tool</a>
-    </div>
-    
-   <div class="card">
-        <h2>⚠ AI Risk Radar</h2>
-        <p>Predict project risks, analyse mitigation strategies and improve delivery confidence.</p>
-        <a class="button" href="risk-radar.html">Launch Tool</a>
-    </div>
-    
-<div class="card">
-    
-<h2>⚠ Risk Radar</h2>
+
+<h2>⚠ AI Risk Radar</h2>
 
 <p>
-AI-powered project risk identification, heat maps and mitigation recommendations.
+Identify delivery risks, visualise heat maps and receive AI-powered mitigation recommendations.
 </p>
 
-<a class="button" href="risk-radar.html">
-Launch Tool
-</a>
+<a class="button" href="risk-radar.html">Launch Tool</a>
+
+</div>
+
+<div class="card">
+
+<h2>👔 Steering Committee Copilot</h2>
+
+<p>
+Generate executive summaries, steering committee packs,
+talking points and governance updates in minutes.
+</p>
+
+<a class="button" href="steering-committee-copilot.html">Launch Tool</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<h2 class="section-title">🚀 Coming Soon</h2>
+
+<div class="cards">
+
+<div class="card coming">
+
+<h2>📄 Executive Status Generator</h2>
+
+<p>
+Generate concise executive project reports for sponsors and CIOs.
+</p>
+
+</div>
+
+<div class="card coming">
+
+<h2>📋 AI RAID Intelligence</h2>
+
+<p>
+Automatically identify Risks, Assumptions, Issues and Dependencies using AI.
+</p>
+
+</div>
+
+<div class="card coming">
+
+<h2>👥 Stakeholder Intelligence</h2>
+
+<p>
+Analyse stakeholder sentiment, communication effectiveness and engagement risks.
+</p>
+
+</div>
+
+<div class="card coming">
+
+<h2>📈 Vendor Performance Dashboard</h2>
+
+<p>
+Monitor vendor KPIs, SLA compliance, delivery trends and contract health.
+</p>
+
+</div>
+
+<div class="card coming">
+
+<h2>💰 Budget Forecast AI</h2>
+
+<p>
+Predict budget variance and recommend corrective actions.
+</p>
+
+</div>
+
+<div class="card coming">
+
+<h2>📅 Delivery Predictor</h2>
+
+<p>
+Forecast schedule slippage using project metrics and historical trends.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<h2 class="section-title">Why this Suite?</h2>
+
+<p style="text-align:center;font-size:18px;line-height:1.8;max-width:1000px;margin:auto;">
+
+The AI Program Director Suite demonstrates how Artificial Intelligence can
+augment modern Project and Program Management by improving governance,
+executive reporting, risk management, stakeholder engagement and
+decision-making.
+
+</p>
+
+<div style="text-align:center;margin-top:30px;">
+
+<span class="badge">Executive Reporting</span>
+
+<span class="badge">AI Governance</span>
+
+<span class="badge">Portfolio Management</span>
+
+<span class="badge">PMO Automation</span>
+
+<span class="badge">Risk Intelligence</span>
+
+<span class="badge">Stakeholder Management</span>
+
+<span class="badge">Vendor Governance</span>
+
+<span class="badge">Digital Transformation</span>
 
 </div>
 
@@ -138,9 +305,22 @@ Launch Tool
 
 <footer>
 
-© 2026 Bharani Bussari
+<h3>Bharani Bussari</h3>
+
+<p>
+
+PMP | Salesforce Certified | AI Associate | Program Manager
+
+</p>
+
+<p>
+
+Building practical AI solutions for Enterprise Project Delivery
+
+</p>
 
 </footer>
 
 </body>
+
 </html>
